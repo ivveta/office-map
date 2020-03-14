@@ -10,7 +10,7 @@
         </div>
         <div class="user-data">
           <p class="user-name">{{user.firstName}} {{user.lastName}}</p>
-          <p class="user-job-title">Отдел: {{ user.department }}</p>
+          <p class="user-job-title">Department: {{ user.department }}</p>
           <p class="user-job-title">{{ user.jobTitle }}</p>
         </div>
         <div class="table-id">{{selectedTable}}</div>
