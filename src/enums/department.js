@@ -7,9 +7,9 @@ const departmentEnum = {
   getTitles() {
     return {
       [this.HR]: 'HR',
-      [this.MARKETING]: 'Маркетинг',
-      [this.GAME_DEV]: 'Игра',
-      [this.APP]: 'Приложение',
+      [this.MARKETING]: 'Marketing',
+      [this.GAME_DEV]: 'Game',
+      [this.APP]: 'App',
     }
   },
 
