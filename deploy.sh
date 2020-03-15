@@ -9,7 +9,11 @@ npm run build
 # переход в каталог сборки
 cd dist
 
+git init
+git add -A
+git commit -m 'deploy'
+
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-git push -f sweta-89-@mail.ru:<ivveta>/<office-map>.git master:gh-pages
+git push -f git@github.com:ivveta/office-map.git master:gh-pages
 
 cd -
