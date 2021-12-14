@@ -1,5 +1,6 @@
-# 0ffice-map
+# Office-map
 This project allows you to find colleague's workplace. 
+[You can check it](https://ivveta.github.io/office-map/)
 
 ## Project setup
 ```
